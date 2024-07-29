@@ -2,7 +2,7 @@ FROM python:3.9-alpine3.13
 
 WORKDIR /app
 
-LABEL maintainer="andre.com"
+LABEL maintainer="someone.com"
 
 ENV PYTHONUNBUFFERED 1
 COPY ./requirements.txt /tmp/requirements.txt
